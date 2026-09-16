@@ -1,16 +1,58 @@
-# React + Vite
+# SethuSphere
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern full-stack contact management system built with the MERN stack for managing professional relationships, interactions, follow-ups, groups, tags, and relationship insights.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Contact management
+* Relationship health tracking
+* Interaction and follow-up management
+* Groups and tags
+* Duplicate detection
+* Analytics and relationship insights
+* Authentication and user management
+* Responsive web interface
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Tailwind CSS
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+src/       → Frontend application
+server/    → Backend API
+public/    → Public assets
+```
+
+## Getting Started
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the frontend
+
+```bash
+npm run dev
+```
+
+### Run the backend
+
+```bash
+npm run server
+```
+
+Create a `.env` file locally with the required environment variables before running the backend.
+
+## Note
+
+This project was developed as a college/internship project.
