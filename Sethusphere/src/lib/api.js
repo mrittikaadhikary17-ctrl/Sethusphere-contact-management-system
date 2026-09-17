@@ -1,4 +1,4 @@
-const API_BASE_URL = (import.meta.env.VITE_API_URL || "https://sethusphere-backend.onrender.com/api/health").replace(/\/+$/, "");
+const API_BASE_URL = (import.meta.env.VITE_API_URL || "https://sethusphere-backend.onrender.com/api").replace(/\/+$/, "");
 
 export const getAuthToken = () => localStorage.getItem("sethusphere_token");
 
